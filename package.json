@@ -1,0 +1,24 @@
+{
+  "name": "express-api-rest",
+  "version": "1.0.0",
+  "description": "express-api-rest",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "dev": "NODE_ENV=development nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "6.7.3",
+    "serve-favicon": "^2.5.0",
+    "uuid": "9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
